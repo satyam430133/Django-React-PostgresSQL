@@ -1,2 +1,114 @@
-env
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Static files
+static/
+
+# Testing
+coverage/
+*.lcov
+
+# Environment variables
 .env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.cache
+celerybeat-schedule
+*.env
+
+# Django migrations
+**/migrations/
+
+# Django static files
+static/
+media/
+
+# Local environment variables
+.env
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build output
+build/
+dist/
+
+# Static files
+static/
+media/
+
+# Testing
+coverage/
+*.lcov
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.cache
+
+# C extensions
+*.so
+
+# Local environment variables
+.env
+
+# Django migrations
+**/migrations/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.coverage
+.coverage.*
+.cache
+celerybeat-schedule
+
+# PostgreSQL dumps
+*.sql
+*.dump
